@@ -1,0 +1,51 @@
+/*~ RESET CSS ~*/
+@charset "UTF-8";
+@font-face{
+	font-family:Battle;
+	src:url('../fonts/Battlenet.ttf');
+}
+@font-face{
+	font-family:'001';
+	src:url('../fonts/001.ttf');
+}
+@font-face{
+	font-family:'002';
+	src:url('../fonts/002.ttf');
+}
+*{
+	border:none;
+	border-radius:0px 0px;
+	color:#fff;
+	font-size:2vmin;
+	font-family:arial;
+	outline: 0px;
+	text-decoration:none;
+	list-style:none;
+	margin:0px 0px;
+	padding:0px 0px;
+}
+*:hover{
+	outline: 0px;
+}
+*:active{
+	outline: 0px;
+}
+*:focus{
+	outline: 0px;
+}
+html, body{
+	background:url('/images/bg.jpg') center center no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+fieldset{
+	border:1px solid rgba(0,200,255,1);
+	padding:10px 20px;
+}
+legend{
+	color:rgba(0,200,255,1);
+	padding:0px 10px;
+}

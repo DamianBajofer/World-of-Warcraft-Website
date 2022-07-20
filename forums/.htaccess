@@ -1,0 +1,5 @@
+Options -Indexes
+RewriteEngine on
+RewriteRule ^forum/([0-9]+)/([0-9]+)/?$ forum.php?section=$1&order=$2 [NC]
+RewriteRule ^thread/([0-9]+)/?$ thread.php?id=$1 [NC]
+RewriteRule ^newthread/([0-9]+)/([0-9]+)/?$ newthread.php?section=$1&order=$2 [NC]

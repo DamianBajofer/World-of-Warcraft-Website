@@ -1,0 +1,36 @@
+#page #container #menu{
+	background-color:rgba(0,0,0,0.02);
+	border-bottom:1px solid rgba(35,35,35,1);
+	overflow:hidden;
+}
+#page #container #menu .link{
+	background-color:rgba(50,50,50,1);
+	border-right:1px solid rgba(35,35,35,1);
+	box-shadow:inset 0vmin 0vmin 2vmin rgba(255,255,255,0.05);
+	text-shadow:0vmin 0vmin 0.1vmin rgba(20,20,20,1);
+	text-align:center;
+	font-size:1.3vmin;
+	color:rgba(150,150,150,1);
+	float:left;
+	display:block;
+	padding:2vmin;
+	transition:150ms;
+	cursor:default;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+#page #container #menu .link.loading{
+	display:block;
+}
+#page #container #menu .link.error, #page #container #menu .link.error:hover, #page #container #menu .link.error:active{
+	box-shadow:inset 0vmin 0vmin 2vmin rgba(255,0,0,0.5);
+	display:block;
+}
+#page #container #menu .link:hover{
+	box-shadow:inset 0vmin 0vmin 2vmin rgba(0,0,0,0.2);
+}
+#page #container #menu .link:active{
+	box-shadow:inset 0vmin 0vmin 2vmin rgba(0,0,0,0.5);
+}

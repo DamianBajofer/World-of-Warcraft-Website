@@ -1,0 +1,83 @@
+/*~ RESET CSS ~*/
+@charset "UTF-8";
+*{
+	border:none;
+	border-radius:0px 0px;
+	color:#000;
+	font-size:2vmin;
+	font-family:arial;
+	outline: 0px;
+	text-decoration:none;
+	list-style:none;
+	margin:0px 0px;
+	padding:0px 0px;
+	top:0px;
+	left:0px;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+*:hover{
+	outline: 0px;
+}
+*:active{
+	outline: 0px;
+}
+*:focus{
+	outline: 0px;
+}
+fieldset{
+	border:1px solid rgba(0,0,0,0.6);
+	margin:1vmin;
+	padding:10px 20px;
+}
+legend{
+	font-size:1.5vmin;
+	color:rgba(0,0,0,1);
+	padding:0px 10px;
+}
+table{
+	/*margin:1vmin auto;*/
+}
+table tr td{
+	font-size:1.3vmin;
+	color:rgba(0,0,0,0.6);
+	font-weight:bold;
+	text-shadow:0px 0px 5px rgba(0,0,0,0.5);
+	padding:0.5vmin;
+}
+input[type='text'],
+input[type='email'],
+input[type='password'],
+textarea, select{
+	background-color:rgba(0,0,0,0.3);
+	border:1px solid rgba(255,255,255,0.2);
+	font-size:1.5vmin;
+	color:rgba(255,255,255,0.8);
+	padding:0.8vmin;
+	transition:250ms;
+	-webkit-user-select:text;
+	-moz-user-select:text;
+	-ms-user-select:text;
+	user-select:text;
+}
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='password']:focus,
+textarea:focus{
+	background-color:rgba(255,255,255,1);
+	border:1px solid rgba(0,0,0,0.8);
+	box-shadow:2px 2px 10px rgba(0,0,0,0.5);
+	color:rgba(0,0,0,0.8);
+}
+select option{
+	background-color:rgba(255,255,255,0.1);
+	border:1px solid rgba(255,255,255,0.1);
+	font-size:1.3vmin;
+	color:rgba(0,0,0,1);
+	transition:250ms;
+}
+div{
+	cursor:default;
+}

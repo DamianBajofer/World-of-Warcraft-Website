@@ -1,0 +1,70 @@
+#page #container #left #news{
+	width:100%;
+	height:100%;
+}
+#page #container #left #news .articles-loading{
+	background-color:rgba(255,255,255,1);
+	width:100%;
+	font-size:3vmin;
+	text-align:center;
+	color:rgba(40,40,40,1);
+	transition:1000ms;
+}
+#page #container #left #news .article{
+	background-color:rgba(45,45,45,1);
+}
+#page #container #left #news .article .title{
+	background-color:rgba(50,50,50,1);
+	border-bottom:1px solid rgba(255,255,255,0.03);
+	box-shadow:0px 1px 1px rgba(20,20,20,1);
+	font-size:2vmin;
+	color:rgba(180,130,80,1);
+	text-shadow:0vmin 0vmin 0.1vmin rgba(20,20,20,1), 0vmin 0vmin 0.1vmin rgba(20,20,20,1), 0.2vmin 0.2vmin 0.1vmin rgba(20,20,20,0.5);
+	font-weight:bold;
+	padding:2vmin;
+}
+#page #container #left #news .article .content{
+	line-height:0vmin;
+	padding-top:2vmin;
+	padding-bottom:2vmin;
+}
+#page #container #left #news .article .content p{
+	color:rgba(150,150,150,1);
+	font-size:1.7vmin;
+	text-shadow:0px 0px 1px rgba(0,0,0,1), 0px 0px 1px rgba(0,0,0,1);
+	line-height:2.5vmin;
+	padding:0vmin 2vmin;
+}
+#page #container #left #news .article .content ul{
+	color:rgba(150,150,150,1);
+	font-size:1.7vmin;
+	text-shadow:0px 0px 1px rgba(0,0,0,1), 0px 0px 1px rgba(0,0,0,1);
+	line-height:2.5vmin;
+	padding:0vmin 2vmin;
+}
+#page #container #left #news .article .content ul li{
+	background:url('../images/bullet.png') center left no-repeat;
+	background-size:1.2vmin 1.2vmin;
+	color:rgba(150,150,150,1);
+	font-size:1.7vmin;
+	text-shadow:0px 0px 1px rgba(0,0,0,1), 0px 0px 1px rgba(0,0,0,1);
+	line-height:2.5vmin;
+	margin-left:2vmin;
+	padding:0vmin 2vmin;
+}
+#page #container #left #news .article .posted{
+	border-top:1px solid rgba(35,35,35,1);
+	width:96%;
+	padding:2vmin;
+	margin:0vmin auto;
+}
+#page #container #left #news .article .posted .author{
+	font-size:1.3vmin;
+	color:rgba(100,100,100,1);
+	line-height:0vmin;
+}
+#page #container #left #news .article .posted .author .text{
+	font-size:1.3vmin;
+	color:rgba(240,200,70,0.6);
+	padding-left:0.2vmin;
+}

@@ -1,0 +1,1 @@
+<div class='social-icon' style="background-image:url('{MODULE}/images/{ICON}');" onclick="window.open('{LINK}')" tooltip='{NAME}'></div>

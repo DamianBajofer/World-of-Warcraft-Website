@@ -1,0 +1,69 @@
+#login table{
+	width:70%;
+	margin:1vmin auto;
+}
+#login table tr td{
+	color:rgba(255,255,255,0.5);
+	text-shadow:0vmin 0vmin 0.1vmin rgba(0,0,0,1),0vmin 0vmin 0.1vmin rgba(0,0,0,1),0vmin 0vmin 0.1vmin rgba(0,0,0,1);
+	font-weight:bold;
+	font-size:1.3vmin;
+}
+#login table tr td input{
+	background-position:center left;
+	background-repeat:no-repeat;
+	background-size:4vmin 4vmin;
+	font-size:1.3vmin;
+	padding:1vmin 1vmin 1vmin 3.5vmin;
+	width:78%;
+	max-width:78%;
+	margin:0 auto;
+}
+#login table tr td input[name='login_username']{
+	background-image:url('../images/username.svg');
+	/*padding-left:5vmin;*/
+}
+#login table tr td input[name='login_password']{
+	background-image:url('../images/password.svg');
+	/*padding-left:5vmin;*/
+}
+#login .button{
+	background-color:#008cff;
+	box-shadow:inset 0vmin 0vmin 2vmin rgba(255,255,255,0.05);
+	text-shadow:0vmin 0vmin 0.1vmin rgba(20,20,20,1);
+	text-align:center;
+	font-size:1.3vmin;
+	color:rgba(255,255,255,5);
+	padding:1.2vmin 2vmin;
+	transition:150ms;
+	cursor:default;
+	width:50%;
+	margin:1vmin auto;
+}
+#login .button:hover{
+	box-shadow:inset 0vmin 0vmin 2vmin rgba(0,0,0,0.2);
+}
+#login .button:active{
+	box-shadow:inset 0vmin 0vmin 2vmin rgba(0,0,0,0.5);
+}
+
+#module #login table{
+	width:0%;
+	margin:10vmin auto 1vmin auto;
+}
+#module #login table tr td{
+	font-size:1.5vmin;
+	color:rgba(255,255,255,0.5);
+	text-shadow:0vmin 0vmin 0.1vmin rgba(0,0,0,1),0vmin 0vmin 0.1vmin rgba(0,0,0,1),0vmin 0vmin 0.1vmin rgba(0,0,0,1);
+}
+#module #login table tr td input{
+	font-size:1.5vmin;
+	margin-bottom:2vmin;
+	padding:1.5vmin 1.5vmin;
+	width:35vmin;
+}
+#module #login .button{
+	font-size:1.5vmin;
+	margin-bottom:10vmin;
+	padding:1.5vmin 1.5vmin;
+	width:35vmin;
+}

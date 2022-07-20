@@ -1,0 +1,18 @@
+#register table{
+	margin:20px auto;
+}
+#register table tr td{
+	font-size:1.5vmin;
+	color:rgba(255,255,255,0.5);
+	text-shadow:0vmin 0vmin 0.1vmin rgba(0,0,0,1),0vmin 0vmin 0.1vmin rgba(0,0,0,1),0vmin 0vmin 0.1vmin rgba(0,0,0,1);
+}
+#module #register table tr td input{
+	font-size:1.5vmin;
+	padding:1.5vmin 1.5vmin;
+	width:35vmin;
+}
+#module #register .button{
+	font-size:1.5vmin;
+	padding:1.5vmin 1.5vmin;
+	width:35vmin;
+}

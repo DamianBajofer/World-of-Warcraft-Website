@@ -1,0 +1,111 @@
+#page #container #right .section .title{
+	background-color:rgba(50,50,50,1);
+	border:1px solid rgba(255,255,255,0.1);
+	border-radius:2px 2px 0px 0px;
+	box-shadow:0px 1px 1px rgba(20,20,20,1);
+	outline: 1px solid rgba(0,0,0,0.2);
+	font-size:1.5vmin;
+	color:rgba(180,130,80,1);
+	text-shadow:0vmin 0vmin 0.1vmin rgba(20,20,20,1), 0vmin 0vmin 0.1vmin rgba(20,20,20,1), 0.2vmin 0.2vmin 0.1vmin rgba(20,20,20,0.5);
+	font-weight:bold;
+	line-height:5vmin;
+	margin:1vmin 1vmin -1vmin 1vmin;
+	padding:0vmin 2vmin;
+}
+#page #container #right .section .box .top{
+	border-bottom:1px solid rgba(45,45,45,1);
+	margin:1vmin 1vmin 0vmin 1vmin;
+	padding:0vmin 0vmin 1vmin 0vmin;
+	overflow:hidden;
+}
+#page #container #right .section .box .top .name{
+	font-size:1.5vmin;
+	color:rgba(30,30,30,1);
+	font-weight:bold;
+	font-style:italic;
+	text-shadow:0vmin 0vmin 0.1vmin rgba(100,100,100,1);
+	width:50%;
+	float:left;
+}
+#page #container #right .section .box .top .onlines{
+	font-size:1.5vmin;
+	color:rgba(30,30,30,1);
+	font-weight:bold;
+	font-style:italic;
+	text-shadow:0vmin 0vmin 0.1vmin rgba(100,100,100,1);
+	text-align:right;
+	width:50%;
+	float:right;
+}
+#page #container #right .section .box .progress{
+	background-color:rgba(40,40,40,1);
+	border:1px solid rgba(80,80,80,1);
+	border-radius:2px 2px;
+	height:2vmin;
+	margin:1vmin 1vmin;
+}
+#page #container #right .section .box .progress .fill{
+	background-color:rgba(50,50,50,1);
+	height:2vmin;
+	overflow:hidden;
+}
+#page #container #right .section .box .progress .bar{
+	box-shadow:inset 0vmin 0vmin 1vmin rgba(50,50,50,1);
+	height:2vmin;
+}
+#page #container #right .section .box .progress .bar.alliance{
+	background-color:rgba(0,140,255,0.8);
+	width:30%;
+	float:left;
+}
+#page #container #right .section .box .progress .bar.horde{
+	background-color:rgba(255,0,0,0.6);
+	width:70%;
+	float:right;
+}
+#page #container #right .section .box .bottom{
+	margin:0.5vmin 2vmin;
+	overflow:hidden;
+}
+#page #container #right .section .box .bottom .alliances{
+	background:url('/images/icons/alliance.png') center left no-repeat;
+	background-size:2.5vmin 2.5vmin;
+	font-size:1.5vmin;
+	color:rgba(20,20,20,1);
+	font-weight:bold;
+	text-shadow:0vmin 0vmin 0.1vmin rgba(120,120,120,1);
+	width:40%;
+	line-height:5vmin;
+	padding-left:10%;
+	float:left;
+}
+#page #container #right .section .box .bottom .hordes{
+	background:url('/images/icons/horde.png') center right no-repeat;
+	background-size:2.5vmin 2.5vmin;
+	font-size:1.5vmin;
+	color:rgba(20,20,20,1);
+	font-weight:bold;
+	text-shadow:0vmin 0vmin 0.1vmin rgba(120,120,120,1);
+	text-align:right;
+	width:40%;
+	line-height:5vmin;
+	padding-right:10%;
+	float:right;
+}
+#page #container #right .section .box .realmlist{
+	background-color:rgba(50,50,50,1);
+	border:1px solid rgba(255,255,255,0.1);
+	outline:1px solid rgba(30,30,30,1);
+	border-radius:2px 2px;
+	text-align:center;
+	font-size:1.3vmin;
+	font-family:courier;
+	font-style:italic;
+	color:rgba(150,150,150,1);
+	line-height:3vmin;
+	margin:1vmin 1vmin;
+	-webkit-user-select:text;
+	-moz-user-select:text;
+	-ms-user-select:text;
+	user-select:text;
+}
