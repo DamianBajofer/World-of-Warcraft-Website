@@ -25,7 +25,7 @@ class Config{
 		"Host" => "127.0.0.1",
 		"Port" => "3306",
 		"User" => "root",
-		"Pass" => "DBcfr203418!",
+		"Pass" => "",
 		"DBAuth" => "auth",
 		"DBChar" => "characters",
 		"DBWorld" => "world",
